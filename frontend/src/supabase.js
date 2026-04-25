@@ -1,0 +1,7 @@
+import { createClient } from "@supabase/supabase-js";
+
+const supabaseUrl="https://qhlkajkgolsjhyvqvngx.supabase.co";
+const supabaseKey="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFobGthamtnb2xzamh5dnF2bmd4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg4MDc5NjgsImV4cCI6MjA4NDM4Mzk2OH0.zYx_zDp3nRsfA7Vo7yKwC_LCYeJ0SlkD-3R7Je4xx6w";
+//YOUTUBE_API_KEY=AIzaSyClP4aOrmCMkCYLhDoFVE95jnAp3_jbMoU
+
+export const supabase = createClient(supabaseUrl, supabaseKey);

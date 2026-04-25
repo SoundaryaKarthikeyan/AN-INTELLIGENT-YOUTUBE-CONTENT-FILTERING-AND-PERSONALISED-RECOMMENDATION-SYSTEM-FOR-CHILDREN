@@ -1,0 +1,13 @@
+# Exclude installers and large archives
+*.exe
+*.zip
+
+# Exclude large data files
+*.csv
+*.joblib
+*.onnx
+*.data
+
+# Exclude DLLs and runtime binaries
+*.dll
+*.pyd
